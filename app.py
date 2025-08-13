@@ -110,7 +110,7 @@ with tabs[0]:
     )
     fig_recency.update_layout(
         xaxis=dict(title='Recency (Days)', showgrid=True, gridcolor='LightGrey', gridwidth=1, zeroline=False),
-        yaxis=dict(title='Count'),
+        yaxis=dict(title='Customers'),
         margin=dict(t=40, b=40),
         bargap=0.1
     )
@@ -130,7 +130,7 @@ with tabs[0]:
     )
     fig_monetary.update_layout(
         xaxis=dict(title='Monetary ($)', showgrid=True, gridcolor='LightGrey', gridwidth=1, zeroline=False),
-        yaxis=dict(title='Count'),
+        yaxis=dict(title='Customers'),
         margin=dict(t=40, b=40),
         bargap=0.1
     )
@@ -382,3 +382,4 @@ with tabs[4]:
 
 st.markdown("---")
 st.markdown("2025 Nastassia Pukelik | CIS9660 | Baruch College")
+
